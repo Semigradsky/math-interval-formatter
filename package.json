@@ -1,0 +1,36 @@
+{
+  "name": "math-interval-formatter",
+  "version": "0.0.0",
+  "description": "Format math interval object to string",
+  "license": "MIT",
+  "repository": "Semigradsky/math-interval-formatter",
+  "author": {
+    "name": "Dmitry Semigradsky",
+    "email": "semigradskyd@gmail.com",
+    "url": "https://github.com/Semigradsky"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "mathematics",
+    "interval",
+    "math",
+    "format",
+    "formatting",
+    "string"
+  ],
+  "dependencies": {
+    "merge": "^1.2.0",
+    "simple-number-formatter": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
+}
